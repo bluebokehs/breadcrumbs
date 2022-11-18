@@ -20,11 +20,11 @@ public class Door1 : MonoBehaviour, IInteractable
 
         if (inventory == null) return false;
 
-        if (inventory.HasKey) {
-            Quaternion target = Quaternion.Euler(0, 180, 0);
+        if (inventory.HasKey1) {
+            Quaternion target = Quaternion.Euler(0, 210, 0);
             transform.rotation = Quaternion.Slerp(transform.rotation, target, 12.0f);
             source.PlayOneShot(_doorSound, 0.8F);
-            inventory.HasKey = false;
+            inventory.HasKey1 = false;
             Debug.Log("Opening Door!");
             return true;
         }

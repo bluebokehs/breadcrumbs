@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2353da8f-6b8e-7a89-0480-3acc128e35d1}</ProjectGuid>
+    <ProjectGuid>{3055c2dc-dcda-8c66-9400-978b84cde268}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -284,16 +284,16 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -652,87 +652,87 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{f793e75b-e92d-cc11-2c07-e5288c0be2d7}</Project>
+      <Project>{91211e15-90ed-161f-cac3-a860fdbb9384}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{eb981107-ffca-8a6a-9c6f-5b330f32efcd}</Project>
+      <Project>{35af34e4-fb3d-9a94-29de-e93ef146bb87}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{12a7f501-1be4-6da5-9bdc-b171acc8ad48}</Project>
+      <Project>{349ac564-1404-4924-2182-b4a0ef7921e3}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{b4ddb647-c418-1db4-52d0-10bd6fc5b17b}</Project>
+      <Project>{5971c09d-e7e1-1d04-4023-8e95ed51ea8a}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{8f065ad6-4f7b-71e6-b827-cb39f052033e}</Project>
+      <Project>{5fc961c9-2451-1c96-88aa-5f8701f89725}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{1b99b44a-b8d3-c65e-074a-9241cae6c37f}</Project>
+      <Project>{7aa06151-413c-3c8c-c1c4-ce396304af9b}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{a9326f04-c026-4f04-241b-27e2f1d0262f}</Project>
+      <Project>{4cb462b1-81cd-1070-8f3a-c0aed64bad88}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{80fb83db-7cf3-405c-9fbd-1cfb9acf26ce}</Project>
+      <Project>{b43d6a6a-b726-4381-cc62-60e8150751bc}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{88ec97e2-9763-0f73-8be6-72d05c5743d6}</Project>
+      <Project>{090df731-a826-99fa-a3dd-ff769bea6fd0}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{3d6c0b2e-4e46-0293-8290-37db973d37fc}</Project>
+      <Project>{9fbb1710-cfbd-6ad2-a15e-96ce107d7694}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{09b68b3d-7d41-1982-69f0-be0c915d0bce}</Project>
+      <Project>{92d5b888-7eb9-51af-8411-2a4900b5aad5}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{805023be-c938-f539-4c6b-a86b88903476}</Project>
+      <Project>{5bf89846-c3c5-4217-ec48-a7061137645b}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VSSettingsProvider.csproj">
-      <Project>{ffaf631d-8c3b-d37e-eb28-23af7b607155}</Project>
+      <Project>{5465df8e-2e77-e0ae-dda7-52928cf73f30}</Project>
       <Name>VSSettingsProvider</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{a8a975db-6521-fa2c-19a5-92344cc543fc}</Project>
+      <Project>{ead69fe7-35fc-66ff-3daa-e1724b0488ef}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{d61d095f-1141-c206-d62e-caa9d5524820}</Project>
+      <Project>{8a241b90-4c0e-fe05-8351-550a77f2d42e}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{900206af-27bf-c19d-caba-e0a6529a44a6}</Project>
+      <Project>{b3744c06-7f55-e286-4853-0c66c0dc281d}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{ae01e8c4-7f9b-cf0b-a75f-87cd4979a38b}</Project>
+      <Project>{fdf1d13e-56c6-8a33-14eb-0540a2370530}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{7c0e9072-4e4c-da49-ebde-000ba0f5d55a}</Project>
+      <Project>{847e8a7f-e16b-a21f-c273-5af1bc2b6a91}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{34c8cb36-973a-45dd-11e0-44b481950c38}</Project>
+      <Project>{d406fc1d-fde8-d7e3-3dde-f7a1c76bf4ac}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{07a3dc46-6369-93c1-42ac-f973996a9083}</Project>
+      <Project>{f2922bfd-d164-3ded-895d-7eac387301f9}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{b61db6e8-1f2f-e4ef-efa1-7634d7c99b33}</Project>
+      <Project>{7f6b8cbc-28b0-3654-9753-5a2be932cc0d}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
   </ItemGroup>

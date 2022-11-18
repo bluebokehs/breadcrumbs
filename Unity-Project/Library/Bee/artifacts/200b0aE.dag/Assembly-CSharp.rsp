@@ -304,7 +304,7 @@
 -r:"/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
--r:"/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ref.dll"
@@ -324,9 +324,9 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Scripts/Interaction System/Book.cs"
 "Assets/Scripts/Interaction System/Door.cs"
 "Assets/Scripts/Interaction System/Door1.cs"
+"Assets/Scripts/Interaction System/Door2.cs"
 "Assets/Scripts/Interaction System/IInteractable.cs"
 "Assets/Scripts/Interaction System/InteractionPointUI.cs"
 "Assets/Scripts/Interaction System/InteractionPromptUI.cs"
@@ -334,6 +334,7 @@
 "Assets/Scripts/Interaction System/Inventory.cs"
 "Assets/Scripts/Interaction System/Key.cs"
 "Assets/Scripts/Interaction System/Key1.cs"
+"Assets/Scripts/Interaction System/Key2.cs"
 -langversion:8.0
 
 /deterministic

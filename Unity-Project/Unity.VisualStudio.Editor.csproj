@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{a9326f04-c026-4f04-241b-27e2f1d0262f}</ProjectGuid>
+    <ProjectGuid>{4cb462b1-81cd-1070-8f3a-c0aed64bad88}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
@@ -319,7 +319,7 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -678,19 +678,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{900206af-27bf-c19d-caba-e0a6529a44a6}</Project>
+      <Project>{b3744c06-7f55-e286-4853-0c66c0dc281d}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{34c8cb36-973a-45dd-11e0-44b481950c38}</Project>
+      <Project>{d406fc1d-fde8-d7e3-3dde-f7a1c76bf4ac}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{eb981107-ffca-8a6a-9c6f-5b330f32efcd}</Project>
+      <Project>{35af34e4-fb3d-9a94-29de-e93ef146bb87}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{12a7f501-1be4-6da5-9bdc-b171acc8ad48}</Project>
+      <Project>{349ac564-1404-4924-2182-b4a0ef7921e3}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

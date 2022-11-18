@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b4ddb647-c418-1db4-52d0-10bd6fc5b17b}</ProjectGuid>
+    <ProjectGuid>{5971c09d-e7e1-1d04-4023-8e95ed51ea8a}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualScripting.Flow.Editor</AssemblyName>
@@ -453,16 +453,16 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Users/owenkern/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Projects/Games/BreadcrumbsGame/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -821,35 +821,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{b61db6e8-1f2f-e4ef-efa1-7634d7c99b33}</Project>
+      <Project>{7f6b8cbc-28b0-3654-9753-5a2be932cc0d}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{3d6c0b2e-4e46-0293-8290-37db973d37fc}</Project>
+      <Project>{9fbb1710-cfbd-6ad2-a15e-96ce107d7694}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{d61d095f-1141-c206-d62e-caa9d5524820}</Project>
+      <Project>{8a241b90-4c0e-fe05-8351-550a77f2d42e}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{ae01e8c4-7f9b-cf0b-a75f-87cd4979a38b}</Project>
+      <Project>{fdf1d13e-56c6-8a33-14eb-0540a2370530}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{900206af-27bf-c19d-caba-e0a6529a44a6}</Project>
+      <Project>{b3744c06-7f55-e286-4853-0c66c0dc281d}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{34c8cb36-973a-45dd-11e0-44b481950c38}</Project>
+      <Project>{d406fc1d-fde8-d7e3-3dde-f7a1c76bf4ac}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{eb981107-ffca-8a6a-9c6f-5b330f32efcd}</Project>
+      <Project>{35af34e4-fb3d-9a94-29de-e93ef146bb87}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{12a7f501-1be4-6da5-9bdc-b171acc8ad48}</Project>
+      <Project>{349ac564-1404-4924-2182-b4a0ef7921e3}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
