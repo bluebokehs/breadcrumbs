@@ -47,6 +47,7 @@
      <Compile Include="Assets\Scripts\Interaction System\Inventory.cs" />
      <Compile Include="Assets\Scripts\Interaction System\InteractionPromptUI.cs" />
      <Compile Include="Assets\Scripts\Interaction System\InteractionPointUI.cs" />
+     <Compile Include="Assets\Scripts\Unity Terrain2Obj Script C#.cs" />
      <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
