@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/owenkern/Developer/breadcrumbs/Unity-Project/Assets/Models/candy_cane.mb"`)
+{		
+	file -o "/Users/owenkern/Developer/breadcrumbs/Unity-Project/Assets/Models/candy_cane.mb";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/owenkern/Developer/breadcrumbs/Unity-Project/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "/Users/owenkern/Developer/breadcrumbs/Unity-Project/Temp/CommandPipe";
+
+$donepipeKill = `fopen "/Users/owenkern/Developer/breadcrumbs/Unity-Project/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;

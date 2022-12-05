@@ -6,6 +6,7 @@ public class Key2 : MonoBehaviour, IInteractable
 {
     [SerializeField] private string _prompt;
     [SerializeField] private GameObject key;
+    [SerializeField] private GameObject image;
 
     public string InteractionPrompt => _prompt;
 
@@ -15,6 +16,7 @@ public class Key2 : MonoBehaviour, IInteractable
 
         inventory.HasKey2 = true;
         key.SetActive(false);
+        image.SetActive(true);
         Debug.Log("Key was picked up!");
         return true;
     }

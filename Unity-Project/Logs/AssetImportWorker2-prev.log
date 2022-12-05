@@ -1,0 +1,103 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/owenkern/Developer/breadcrumbs/Unity-Project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52347
+Successfully changed project path to: /Users/owenkern/Developer/breadcrumbs/Unity-Project
+/Users/owenkern/Developer/breadcrumbs/Unity-Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 391.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/owenkern/Developer/breadcrumbs/Unity-Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2022-11-30 12:56:18.812 Unity[5508:78775] Color LCD preferred device: AMD Radeon Pro 560X (high power)
+2022-11-30 12:56:18.812 Unity[5508:78775] Metal devices available: 2
+2022-11-30 12:56:18.812 Unity[5508:78775] 0: AMD Radeon Pro 560X (high power)
+2022-11-30 12:56:18.812 Unity[5508:78775] 1: Intel(R) UHD Graphics 630 (low power)
+2022-11-30 12:56:18.813 Unity[5508:78775] Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003240 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 390.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.371 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019902 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/owenkern/Developer/breadcrumbs/Unity-Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 172.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.314 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3548.
+Total: 7.095736 ms (FindLiveObjects: 0.631410 ms CreateObjectMapping: 0.351638 ms MarkObjects: 5.889383 ms  DeleteObjects: 0.220457 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(b6c2d3ed605ea464b92d31c230066a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(b6c2d3ed605ea464b92d31c230066a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree dango couldn't be instanced because bounds could not be determined.
+
+ -> (artifact id: '549a9ca850181cf28ef2143a60610203') in 4.319348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.775580 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(b6c2d3ed605ea464b92d31c230066a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(b6c2d3ed605ea464b92d31c230066a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree dango couldn't be instanced because bounds could not be determined.
+
+ -> (artifact id: 'fa9ec5a470772a9bc93668f246da5206') in 0.047726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.511745 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(dc84b724a8772474dbe77d28acad6b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(dc84b724a8772474dbe77d28acad6b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7137c5d72f06d9b313f1d4d0bba0ede') in 1.710095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1116.682112 seconds.
+  path: Assets/Prefabs/dango.prefab
+  artifactKey: Guid(be96c2744284c4a5cb6e3edefa9f9795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dango.prefab using Guid(be96c2744284c4a5cb6e3edefa9f9795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8bdda47d166ed8529c3d8f36cd9329') in 0.061647 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
