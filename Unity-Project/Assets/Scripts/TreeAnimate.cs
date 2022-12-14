@@ -11,9 +11,14 @@ public class TreeAnimate : MonoBehaviour, IInteractable
 
     public bool Interact(Interactor interactor)
     {
-        treeAnimator.SetBool("isGrowing", true);
-        peach.transform.position = new Vector3(527, 1, 231);
-        Debug.Log("The tree has grown!");
+        var inventory = interactor.GetComponent<Inventory>();
+
+        if (inventory.HasCan) {
+            treeAnimator.SetBool("isGrowing", true);
+            peach.transform.position = new Vector3(527, 0, 231);
+            Debug.Log("The tree has grown!");
+        }
+
         return true;
     }
 }

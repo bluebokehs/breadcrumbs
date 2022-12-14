@@ -38,12 +38,18 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Interaction System\IInteractable.cs" />
      <Compile Include="Assets\Scripts\Interaction System\Key1.cs" />
+     <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
+     <Compile Include="Assets\Scripts\DialogueTrigger2.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Interaction System\Key2.cs" />
      <Compile Include="Assets\Scripts\memSystem.cs" />
      <Compile Include="Assets\Scripts\memButton.cs" />
+     <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\OptionsMenu.cs" />
+     <Compile Include="Assets\Scripts\Interaction System\Sign.cs" />
      <Compile Include="Assets\Scripts\TreeAnimate.cs" />
      <Compile Include="Assets\Scripts\Interaction System\Door1.cs" />
+     <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\Interaction System\Interactor.cs" />
      <Compile Include="Assets\Scripts\Interaction System\Key.cs" />
      <Compile Include="Assets\Scripts\Interaction System\Key3.cs" />
@@ -53,13 +59,13 @@
      <Compile Include="Assets\Scripts\Interaction System\Door.cs" />
      <Compile Include="Assets\Scripts\Interaction System\Inventory.cs" />
      <Compile Include="Assets\Scripts\Interaction System\InteractionPromptUI.cs" />
+     <Compile Include="Assets\Scripts\Interaction System\Building.cs" />
      <Compile Include="Assets\Scripts\Interaction System\InteractionPointUI.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\Scripts\Interaction System\Sign.cs" />
-     <Compile Include="Assets\Scripts\DialogueManager.cs" />
-     <Compile Include="Assets\Scripts\Dialogue.cs" />
-     <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
+     <Compile Include="Assets\Scripts\DialogueManager1.cs" />
+     <Compile Include="Assets\Scripts\Interaction System\WateringCan.cs" />
+     <Compile Include="Assets\Scripts\DialogueTrigger3.cs" />
+     <Compile Include="Assets\Scripts\DialogueManager2.cs" />
      <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

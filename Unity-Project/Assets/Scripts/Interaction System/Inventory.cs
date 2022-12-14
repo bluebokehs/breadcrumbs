@@ -9,4 +9,5 @@ public class Inventory : MonoBehaviour
     public bool HasKey1 = false;
     public bool HasKey2 = false;
     public bool HasKey3 = false;
+    public bool HasCan = false;
 }

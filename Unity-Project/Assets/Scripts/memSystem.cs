@@ -51,7 +51,7 @@ public class memSystem : MonoBehaviour
             if (curr.Count == correctSeq.Count)
             {
                 Debug.Log("Success!!!!");
-                iceCream.transform.position = new Vector3(586, 8, 553);
+                iceCream.transform.position = new Vector3(568, 7, 536);
                 curr.Clear();
             }
         }
